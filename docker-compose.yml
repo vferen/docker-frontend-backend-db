@@ -20,7 +20,7 @@ services:
     depends_on:
       - api
     ports:
-      - "3000:3000"
+      - "5000:5000"
     networks:
       - network-backend
       - network-frontend
@@ -66,7 +66,7 @@ services:
     depends_on:
       - prometheus
     ports:
-      - 5000:5000
+      - 3000:3000
     volumes:
       - ./monitor/grafana_data:/var/lib/grafana
       - ./monitor/grafana/provisioning/:/etc/grafana/provisioning/
