@@ -2,7 +2,7 @@ const express = require('express');
 const request = require('request');
 
 const app = express();
-const port = 5000;
+const port = 3000;
 const restApiUrl = process.env.API_URL;
 
 app.get('/', function(req, res) {

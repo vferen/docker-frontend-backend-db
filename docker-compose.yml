@@ -20,7 +20,7 @@ services:
     depends_on:
       - api
     ports:
-      - "5000:5000"
+      - "3000:5000"
     networks:
       - network-backend
       - network-frontend
