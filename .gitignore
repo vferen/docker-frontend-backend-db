@@ -7,3 +7,4 @@ npm-debug.log
 *.sublime-workspace
 .vs
 monitor/prometheus_data
+monitor/grafana_data/grafana.db
