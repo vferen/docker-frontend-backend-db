@@ -22,6 +22,7 @@ services:
     ports:
       - "3000:3000"
     networks:
+      - network-backend
       - network-frontend
 
   db:
