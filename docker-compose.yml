@@ -56,7 +56,7 @@ services:
     ports:
       - 9090:9090
     networks:
-      - env_prod
+      - network-backend
     restart: always
 
   grafana:
@@ -72,7 +72,7 @@ services:
     env_file:
       - ./monitor/grafana/config.monitoring
     networks:
-      - env_prod
+      - network-backend
     restart: always      
 
 networks:
