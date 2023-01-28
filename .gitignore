@@ -6,8 +6,4 @@ npm-debug.log
 *.sublime-project
 *.sublime-workspace
 .vs
-<<<<<<< HEAD
-./monitor/grafana_data
-=======
-./monitor/prometheus_data
->>>>>>> master
+monitor/prometheus_data
