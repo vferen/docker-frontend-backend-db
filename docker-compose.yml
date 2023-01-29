@@ -2,7 +2,7 @@ version: "3.7"
 
 services:
   api:
-    build: ./backend
+    image: vferen/back:latest
     environment:
       - CONNECTION_STRING=postgres://demo_user:demo_user@db/demo_db
     depends_on:
@@ -14,7 +14,7 @@ services:
       - network-frontend
 
   webapp:
-    build: ./frontend
+    image: vferen/front:latest
     environment:
       - API_URL=http://api:3001/data
     depends_on:
