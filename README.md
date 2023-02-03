@@ -1,7 +1,15 @@
-A demonstration of docker to implement a simple 3 tier architecture
+Descripción: Desplegamos un docker-compose con la app y la monitorización. Gracias al Github actions gestionamos CICD.
 
-* frontend will be able to access the mid-tier.
-* mid-tier will be able to access the db.
-* frontend will not be able to access the db 
+Instalación: Para correr el proyecto, simplemente hay que descargarlo y en la carpeta del proyecto, lanzar un docker-compose up, y en un minuto despliega.
 
-Read more [here](https://mundanecode.com/posts/three-tier-architecture-in-docker/).
+El puerto por defecto es el 2000 para evitar conflictos con otros contenedores
+
+Requisitos :
+docker hub
+git
+java
+navegador web
+git
+
+
+Para la monitorización accedemos por el localHOST:3000 y llegaremos a grafana.
